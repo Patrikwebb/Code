@@ -40,33 +40,33 @@ function ajax_post(){
 }
 
 // Mouseenter & mouseleave script - Ajax.php
-$(".rubrik").mouseenter(function(){
-  $("#content").css({
-	"background-color":"blue", 
-	"border-color":"red"})
-  $("#wrapper").animate({width:'1000px'})
-});
+	$(".rubrik").mouseenter(function(){
+	  $("#content").css({
+		"background-color":"blue", 
+		"border-color":"red"})
+	  $("#wrapper").animate({width:'1000px'})
+	});
 
-$(".rubrik").mouseleave(function(){
-  $("#content").css({
-	"background-color":"#1F1F1F", 
-	"border-color":"#eee"})
-  $("#wrapper").animate({width:'900px'})
-});
+	$(".rubrik").mouseleave(function(){
+	  $("#content").css({
+		"background-color":"#1F1F1F", 
+		"border-color":"#eee"})
+	  $("#wrapper").animate({width:'900px'})
+	});
 
 // Ta fram lite storlekar - Ajax.php
-function showWidth( ele, w ) {
-$( ".showWidth" ).text( "Bredden på " + ele + " är " + w + "px." );
-}
-$( "#getp" ).click(function() {
-showWidth( "text innehållet", $( "#content" ).width() );
-});
-$( "#getd" ).click(function() {
-showWidth( "hemsidan", $( "#wrapper" ).width() );
-});
-$("#getw").click(function() {
-showWidth( "webb fönstret", $( window ).width() );
-});
+	function showWidth( ele, w ) {
+	$( ".showWidth" ).text( "Bredden på " + ele + " är " + w + "px." );
+	}
+	$( "#getp" ).click(function() {
+	showWidth( "text innehållet", $( "#content" ).width() );
+	});
+	$( "#getd" ).click(function() {
+	showWidth( "hemsidan", $( "#wrapper" ).width() );
+	});
+	$("#getw").click(function() {
+	showWidth( "webb fönstret", $( window ).width() );
+	});
 
 //Slider script för header bilderna
 
