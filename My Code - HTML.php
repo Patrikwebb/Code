@@ -34,6 +34,7 @@
 				känner än att åka med en random"</b>
 				</p>	
 				<p> Ny Paragraf Github testing </p>
+				<p> Ny Paragraf Github testing </p>
 		</div>	
 			<?php include 'includes/article/article.php'; ?>
 				<?php include 'includes/footer/footer.php'; ?>
