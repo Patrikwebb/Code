@@ -33,6 +33,7 @@
 				<b>"Jag åker ju hellre med någon jag <br />
 				känner än att åka med en random"</b>
 				</p>	
+
 		</div>	
 			<?php include 'includes/article/article.php'; ?>
 				<?php include 'includes/footer/footer.php'; ?>
