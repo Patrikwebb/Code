@@ -2,8 +2,8 @@
 
 
 // THIS IS LANGHANS CHANGING THE CODE AGAIN!  
-
-
+// Patrik
+// Igen
 	$(document).ready(function(){
 	$("input, textarea").focus(function(){
 	$(this).css("background-color","#cccccc");
