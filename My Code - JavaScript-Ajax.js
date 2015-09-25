@@ -1,7 +1,7 @@
 // focus ¤ blur effekt på textarea - Overall script
 
 
-// THIS IS LANGHANS CHANGING THE CODE 
+// THIS IS LANGHANS CHANGING THE CODE AGAIN!  
 
 
 	$(document).ready(function(){
