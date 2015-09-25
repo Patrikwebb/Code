@@ -1,5 +1,9 @@
 // focus ¤ blur effekt på textarea - Overall script
 
+
+// THIS IS LANGHANS CHANGING THE CODE 
+
+
 	$(document).ready(function(){
 	$("input, textarea").focus(function(){
 	$(this).css("background-color","#cccccc");
