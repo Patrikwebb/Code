@@ -1,13 +1,14 @@
 // focus ¤ blur effekt på textarea - Overall script
 
-	$(document).ready(function(){
+$(document).ready(function(){
 	$("input, textarea").focus(function(){
 	$(this).css("background-color","#cccccc");
-		});
+	});
+	
 	$("input, textarea").blur(function(){
 	$(this).css("background-color","#ffffff");
-		});
-		});
+	});
+});
 		
 // Beställa dricka med Ajax Post, PHP Script - Ajax.php
 function ajax_post(){
@@ -40,22 +41,22 @@ function ajax_post(){
 }
 
 // Mouseenter & mouseleave script - Ajax.php
-	$(".rubrik").mouseenter(function(){
-	  $("#content").css({
-		"background-color":"blue", 
-		"border-color":"red"})
-	  $("#wrapper").animate({width:'1000px'})
-	});
+$(".rubrik").mouseenter(function(){
+  $("#content").css({
+	"background-color":"blue", 
+	"border-color":"red"})
+  $("#wrapper").animate({width:'1000px'})
+});
 
-	$(".rubrik").mouseleave(function(){
-	  $("#content").css({
-		"background-color":"#1F1F1F", 
-		"border-color":"#eee"})
-	  $("#wrapper").animate({width:'900px'})
-	});
+$(".rubrik").mouseleave(function(){
+  $("#content").css({
+	"background-color":"#1F1F1F", 
+	"border-color":"#eee"})
+  $("#wrapper").animate({width:'900px'})
+});
 
 // Ta fram lite storlekar - Ajax.php
-	function showWidth( ele, w ) {
+function showWidth( ele, w ) {
 	$( ".showWidth" ).text( "Bredden på " + ele + " är " + w + "px." );
 	}
 	$( "#getp" ).click(function() {
@@ -66,7 +67,7 @@ function ajax_post(){
 	});
 	$("#getw").click(function() {
 	showWidth( "webb fönstret", $( window ).width() );
-	});
+});
 
 //Slider script för header bilderna
 
